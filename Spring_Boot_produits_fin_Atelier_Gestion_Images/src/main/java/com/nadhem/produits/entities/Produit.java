@@ -104,6 +104,14 @@ public class Produit {
 		this.images = images;
 	}
 
+	public Image getImage() {
+		return image;
+	}
+
+	public void setImage(Image image) {
+		this.image = image;
+	}
+
 	public String getImagePath() {
 		return imagePath;
 	}
